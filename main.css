@@ -3,20 +3,3 @@ h1 {
 }
 
 .card {
-        border: solid 1px black;
-}
-.card {
-    display: grid;
-    grid-template-columns: 2px, 2px;
-    grid-auto-rows: minmax(1px, auto);
-    margin: 10px;
-    width: 300px;
-    height: 100px;
-}
-.card:hover{
-    box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.icon {
-    margin: 5px;
-
-}
