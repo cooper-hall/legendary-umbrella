@@ -1,0 +1,204 @@
+{ "brewery":
+    [ 
+  {
+    "id": "1",
+    "name": "10 Barrel Brewing Co",
+    "brewery_type": "large",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/3256/3256216.png",
+    "address": "62970 18th Street Bend, Oregon 97701",
+    "city_state": "Bend, Oregon",
+    "image":"https://10barrel.com/wp-content/uploads/2020/09/Web_NatureCalls_Can.png",
+    "website": "https://10barrel.com/"
+  },
+    {
+    "id": "2",
+    "name": "105 West Brewing Co",
+    "brewery_type": "micro",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
+    "address": "1043 Park Street Castle Rock, Colorado 80109",
+    "city_state": "Castle Rock, Colorado",
+    "image":"https://static.wixstatic.com/media/796b1a_342595388d17401898f1bc78391f6469~mv2_d_1342_2048_s_2.png/v1/fill/w_450,h_682,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/big_bear2_wLetters.png",
+    "website": "https://www.105westbrewing.com/"
+  },
+    {
+    "id": "3",
+    "name": "North Fork Brewing Co.",
+    "brewery_type": "micro",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
+    "address": "24 E 2nd Street, Suite A, Riverhead, New York 11901",
+    "city_state": "Riverhead, New York",
+    "image":"https://images.squarespace-cdn.com/content/57a77ac6d482e939bcda05d5/1512658498275-1HVG6I31AD55WH4V65YZ/nfbc-logo2x.png?content-type=image%2Fpng",
+    "website": "https://www.northforkbrewingco.com/"
+  },
+    {
+    "id": "4",
+    "name": "Sierra Nevada",
+    "brewery_type": "large",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/3256/3256216.png",
+    "address": "1075 East 20th Street Chico, California 95928",
+    "city_state": "Chico, California",
+    "image":"https://sierranevada.com/wp-content/uploads/2021/09/Pale-Ale-Can.png",
+    "website": "https://sierranevada.com/"
+  },
+    {
+    "id": "5",
+    "name": "1188 Brewing Co",
+    "brewery_type": "brewpub",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
+    "address": "141 E Main Street John Day, Oregon 97845",
+    "city_state": "John Day, Oregon",
+    "image":"https://secureservercdn.net/45.40.148.239/4ku.f78.mwp.accessdomain.com/wp-content/uploads/2021/11/1188-web-logo.png",
+    "website": "https://1188brewing.com/"
+  },
+    {
+    "id": "6",
+    "name": "12 Gates Brewing Company",
+    "brewery_type": "brewpub",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
+    "address": "80 Earhart Drive Williamsville, New York 14221",
+    "city_state": "Williamsville, New York",
+    "image":"https://12gatesbrewing.com/wp-content/uploads/2015/12/12-gates-header-logo-2-1024x682.png",
+    "website": "https://12gatesbrewing.com/"
+  },
+    {
+    "id": "7",
+    "name": "Grimm Brewery",
+    "brewery_type": "micro",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
+    "address": "990 Metropolitan Ave Brooklyn, New York 11211",
+    "city_state": "Brooklyn, New York",
+    "image":"https://craftpeak-cooler-images.imgix.net/grimm-artisanal-ales/grimm-header-logo.png?auto=compress%2Cformat&fit=scale&h=295&ixlib=php-3.3.0&w=150&wpsize=thumbnail_wide&s=8ee5fa572dd46e30973d9be9acccafbd",
+    "website": "https://grimmales.com/"
+  },
+    {
+    "id": "8",
+    "name": "Broken Clock Brewing Cooperative",
+    "brewery_type": "micro",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
+    "address": "3134 Califonia Street Northeast Suite 122, Minneapolis, Minnesota 55418",
+    "city_state": "Minneapolis, Minnesota",
+    "image":"https://www.brokenclockbrew.com/wp-content/uploads/elementor/thumbs/cropped-logo-whiteShadow-ob76rof4m697jzygme0ixrmt4qcorqq2gas5cs3w08.png",
+    "website": "https://www.brokenclockbrew.com/"
+  },
+    {
+    "id": "9",
+    "name": "Jackalope Brewing Co.",
+    "brewery_type": "micro",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
+    "address": "429B Houston Street Nashville, Tennessee 37203",
+    "city_state": "Nashville, Tennessee",
+    "image":"https://i0.wp.com/jackalopebrew.com/wp-content/uploads/2019/05/jbcsmall-1.png?w=299&ssl=1",
+    "website": "https://jackalopebrew.com/"
+  },
+    {
+    "id": "10",
+    "name": "Threes Brewing ",
+    "brewery_type": "brewpub",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
+    "address": "333 Douglass Street Brooklyn, New York 11217",
+    "city_state": "Brooklyn, New York",
+    "image":"https://cdn.shopify.com/s/files/1/1565/5781/t/112/assets/logo.svg?v=43067446638660706891652165092",
+    "website": "https://shop.threesbrewing.com/"
+  },
+    {
+    "id": "11",
+    "name": "Black Abbey Brewery",
+    "brewery_type": "micro",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
+    "address": "2952 Sidco Drive Nashville, Tennessee 37204",
+    "city_state": "Nashville, Tennessee",
+    "image":"https://blackabbeybrewing.com/wp-content/uploads/2021/11/The-Rose.png",
+    "website": "https://blackabbeybrewing.com/"
+  },
+    {
+    "id": "12",
+    "name": "Wynkoop",
+    "brewery_type": "brewpub",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
+    "address": "1634 18th Street Denver, Colorado 80202",
+    "city_state": "Denver, Colorado",
+    "image":"https://assets.untappd.com/site/brewery_logos/brewery-4373_fef36.jpeg",
+    "website": "https://wynkoop.com/"
+  },
+    {
+    "id": "13",
+    "name": "Greenport Harbor Brewing Co.",
+    "brewery_type": "brewpub",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
+    "address": "234 Carpenter Street Greenport, New York 11994",
+    "city_state": "Greenport, New York",
+    "image":"https://images.squarespace-cdn.com/content/v1/5f89a8d44934514f19313f3b/1602859793849-W4T6DJQMXEF598KYZNBY/static1.squarespace.png?format=1500w",
+    "website": "https://greenportharborbrewing.com/"
+  },
+    {
+    "id": "14",
+    "name": "Other Half",
+    "brewery_type": "micro",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
+    "address": "195 Centre Stree Brookyln, New York 11231",
+    "city_state": "Brooklyn, New York",
+    "image":"https://craftpeak-cooler-images.imgix.net/other-half-brewing/logo-vertical-light_2x.png?auto=compress%2Cformat&ixlib=php-1.2.1",
+    "website": "https://otherhalfbrewing.com/"
+  },
+    {
+    "id": "15",
+    "name": "Blue Moon",
+    "brewery_type": "large",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/3256/3256216.png",
+    "address": "3750 Chestnut Place Denver, Colorado 80216",
+    "city_state": "Denver, Colorado",
+    "image":"https://www.bluemoonbrewingcompany.com/sites/bluemoon/files/inline-images/BlueMoon-Logo-MD.png",
+    "website": "https://www.bluemoonbrewingcompany.com/en-US"
+  },
+    {
+    "id": "16",
+    "name": "Blue Point Brewing Company",
+    "brewery_type": "brewpub",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
+    "address": "225 West Main Street Patchogue, New York 11772",
+    "city_state": "Patchogue, New York",
+    "image":"https://mxtestimageserver.blob.core.windows.net/images/assets/website_27_9490a5e6c5.jpg",
+    "website": "https://www.bluepointbrewing.com/"
+  },
+    {
+    "id": "17",
+    "name": "Live Oak Brewing",
+    "brewery_type": "micro",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
+    "address": "1615 Crozier Lane Del Valle, Texas 78617",
+    "city_state": "Del Valle, Texas",
+    "image":"https://i0.wp.com/liveoakbrewing.com/wp-content/uploads/2016/03/liveoaklogomain.gif",
+    "website": "https://liveoakbrewing.com/"
+  },
+    {
+    "id": "18",
+    "name": "Stoup Brewing",
+    "brewery_type": "micro",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
+    "address": "1108 NW 52nd Street Seattle, Washington 98107",
+    "city_state": "Seattle, Washington",
+    "image":"https://www.stoupbrewing.com/img/stoup-small-white-logo-with-padding2.png",
+    "website": "https://www.stoupbrewing.com/"
+  },
+    {
+    "id": "19",
+    "name": "Revolution Brewing",
+    "brewery_type": "brewpub",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
+    "address": "3340 N. Kedzie Ave Chicago, Illinois 60618",
+    "city_state": "Chicago, Illinois",
+    "image":"https://revbrew.imgix.net/beer/Hazy-Hero_Web.png?fit=clip&h=588&q=80&w=300&s=a062a8ba7f6f620447dd0bf6ac6767b7",
+    "website": "https://revbrew.com/"
+  },
+    {
+    "id": "20",
+    "name": "Bissell Brothers Brewing",
+    "brewery_type": "micro",
+    "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
+    "address": "157 Elm Street Milo, Maine 04463",
+    "city_state": "Milo, Maine",
+    "image":"https://craftpeak-cooler-images.imgix.net/bissell-brothers/LUCKY-1.jpg?auto=compress%2Cformat&fit=crop&h=600&ixlib=php-3.3.0&w=600&wpsize=tile_strict&s=dbf776d93acc13a5f943d08d0cbea22a",
+    "website": "https://bissellbrothers.com/"
+  }
+]
+}
