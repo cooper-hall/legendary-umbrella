@@ -1,31 +1,52 @@
 console.log ("jello")
 
-const divThing = document.getElementById("card")
+
+// const card = document.getElementById('card')
+// const breweryName = document.getElementById('name')
+// const cityState = document.getElementById('city_state')
 
 const testing = async() => {
     let req = await fetch("http://localhost:3000/brewery");
     let res = await req.json()
     console.log(res)
     res.forEach((brewery) => {
-        let div = document.createElement("div");
-        div.classList ='card'
-        let img = document.createElement("img");
+        let cardDiv = document.createElement("div");
+        cardDiv.classList ='card'
+        
+        let infoDiv = document.createElement('div')
+        infoDiv.classList = "info-div"
+       
+        let smallIcon = document.createElement('img')
+        smallIcon.classList = "small-icon"
+        smallIcon.src = brewery.type_image
+       
+        const cardBreweryName = document.createElement('h2')
+        cardBreweryName.classList = "card-brew-name"
+       
+        const cityState = document.createElement('p')
+        cityState.classList = "city-state"
 
-        h2.innerText = brewery.name
-        h2.style.textAlign = "center";
-        p.innerText = brewery.city_state
-        p.style.textAlign = "center"
-        div.append(h2, img, p);
+        cardDiv.addEventListener('mouseover', () => {
+            document.getElementById('card').style.height = "50px"
+        })
+        // cardDiv.addEventListener('mouseleave', () => {
+            
+        // })
 
-        div.addEventListener("click", () => {
-         div.style.border = "3px solid dodgerblue"})
-        // p.style.float = "right"
-        div.append(img,h2,p);
+        cardBreweryName.innerText = brewery.name
+        //cardBreweryName.style.textAlign = "center";
+        cityState.innerText = brewery.city_state
+        //cityState.style.textAlign = "center"
+        infoDiv.append(cardBreweryName, cityState);
+        cardDiv.append(smallIcon, infoDiv)
+        //div.addEventListener("click", () => {
+        //div.style.border = "3px solid dodgerblue"})
 
-        document.body.append(div);
+        //document.body.append(div);
         // for the image to make it go to the left, we need a img.style.float ("left")
         // and need to make for the text on the right side, need .float ("right")
-        img.classList = "icon"
+        //img.classList = "icon"
+        document.body.append(cardDiv)
     } )
 }
 testing()
