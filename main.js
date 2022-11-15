@@ -30,7 +30,7 @@ const testing = async() => {
             
             // })  
          cardDiv.addEventListener('mouseover', () => { 
-            cardDiv.classList.add('zoom') })    
+             cardDiv.classList.add('zoom') })    
          
          cardDiv.addEventListener('mouseout', () => { 
             cardDiv.classList.remove('zoom') })
