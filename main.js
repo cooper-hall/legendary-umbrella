@@ -1,10 +1,5 @@
 console.log ("jello")
 
-
-// const card = document.getElementById('card')
-// const breweryName = document.getElementById('name')
-// const cityState = document.getElementById('city_state')
-
 const testing = async() => {
     let req = await fetch("http://localhost:3000/brewery");
     let res = await req.json()
@@ -25,6 +20,7 @@ const testing = async() => {
        
         const cityState = document.createElement('p')
         cityState.classList = "city-state"
+
 
         // cardDiv.addEventListener('mouseleave', () => {
             
@@ -48,6 +44,7 @@ const testing = async() => {
                 // and need to make for the text on the right side, need .float ("right")
                 //img.classList = "icon"
                 document.body.append(cardDiv)
+
     } )
 }
 testing()
