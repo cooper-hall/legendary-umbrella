@@ -21,16 +21,30 @@ const testing = async() => {
         const cityState = document.createElement('p')
         cityState.classList = "city-state"
 
-        cardDiv.addEventListener('mouseover', () => {
-            document.getElementById('card').style.height = "50px"
-        })
 
+        // cardDiv.addEventListener('mouseleave', () => {
+            
+            // })  
+         cardDiv.addEventListener('mouseover', () => { 
+            cardDiv.classList.add('zoom') })    
+         
+         cardDiv.addEventListener('mouseout', () => { 
+            cardDiv.classList.remove('zoom') })
+            cardBreweryName.innerText = brewery.name
+            //cardBreweryName.style.textAlign = "center";
+            cityState.innerText = brewery.city_state
+            //cityState.style.textAlign = "center"
+            infoDiv.append(cardBreweryName, cityState);
+            cardDiv.append(smallIcon, infoDiv)
+            //div.addEventListener("click", () => {
+                //div.style.border = "3px solid dodgerblue"})
+                
+                //document.body.append(div);
+                // for the image to make it go to the left, we need a img.style.float ("left")
+                // and need to make for the text on the right side, need .float ("right")
+                //img.classList = "icon"
+                document.body.append(cardDiv)
 
-        cardBreweryName.innerText = brewery.name
-        cityState.innerText = brewery.city_state
-        infoDiv.append(cardBreweryName, cityState);
-        cardDiv.append(smallIcon, infoDiv)
-        document.body.append(cardDiv)
     } )
 }
 testing()
