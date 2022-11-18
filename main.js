@@ -40,6 +40,8 @@ const testing = async() => {
         
         cardDiv.addEventListener("click", () => {
           selectBrewery(brewery);
+          cheersImg.src =
+            "https://www.iconpacks.net/icons/2/free-beer-icon-1786-thumb.png";
           console.log(selectBrewery);
         });
 
@@ -58,6 +60,7 @@ const selectBrewery = (brewery) => {
     bigBrewType.innerText = brewery.brewery_type;
     breweryAddress.innerText = brewery.address;
     breweryUrl.innerText = brewery.website;
+    breweryUrl.href = brewery.website;
     bigBrewImage.src = brewery.image;
     cheersImg.addEventListener("click", () => {
       cheersImg.src =

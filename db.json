@@ -3,7 +3,7 @@
   {
     "id": "1",
     "name": "10 Barrel Brewing Co",
-    "brewery_type": "large",
+    "brewery_type": "Large",
     "type_image": "https://cdn-icons-png.flaticon.com/512/3256/3256216.png",
     "address": "62970 18th Street Bend, Oregon 97701",
     "city_state": "Bend, Oregon",
@@ -13,7 +13,7 @@
     {
     "id": "2",
     "name": "105 West Brewing Co",
-    "brewery_type": "micro",
+    "brewery_type": "Micro",
     "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
     "address": "1043 Park Street Castle Rock, Colorado 80109",
     "city_state": "Castle Rock, Colorado",
@@ -23,7 +23,7 @@
     {
     "id": "3",
     "name": "North Fork Brewing Co.",
-    "brewery_type": "micro",
+    "brewery_type": "Micro",
     "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
     "address": "24 E 2nd Street, Suite A, Riverhead, New York 11901",
     "city_state": "Riverhead, New York",
@@ -33,7 +33,7 @@
     {
     "id": "4",
     "name": "Sierra Nevada",
-    "brewery_type": "large",
+    "brewery_type": "Large",
     "type_image": "https://cdn-icons-png.flaticon.com/512/3256/3256216.png",
     "address": "1075 East 20th Street Chico, California 95928",
     "city_state": "Chico, California",
@@ -43,7 +43,7 @@
     {
     "id": "5",
     "name": "1188 Brewing Co",
-    "brewery_type": "brewpub",
+    "brewery_type": "Brewpub",
     "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
     "address": "141 E Main Street John Day, Oregon 97845",
     "city_state": "John Day, Oregon",
@@ -53,7 +53,7 @@
     {
     "id": "6",
     "name": "12 Gates Brewing Company",
-    "brewery_type": "brewpub",
+    "brewery_type": "Brewpub",
     "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
     "address": "80 Earhart Drive Williamsville, New York 14221",
     "city_state": "Williamsville, New York",
@@ -63,7 +63,7 @@
     {
     "id": "7",
     "name": "Grimm Brewery",
-    "brewery_type": "micro",
+    "brewery_type": "Micro",
     "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
     "address": "990 Metropolitan Ave Brooklyn, New York 11211",
     "city_state": "Brooklyn, New York",
@@ -73,7 +73,7 @@
     {
     "id": "8",
     "name": "Broken Clock Brewing Cooperative",
-    "brewery_type": "micro",
+    "brewery_type": "Micro",
     "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
     "address": "3134 Califonia Street Northeast Suite 122, Minneapolis, Minnesota 55418",
     "city_state": "Minneapolis, Minnesota",
@@ -83,7 +83,7 @@
     {
     "id": "9",
     "name": "Jackalope Brewing Co.",
-    "brewery_type": "micro",
+    "brewery_type": "Micro",
     "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
     "address": "429B Houston Street Nashville, Tennessee 37203",
     "city_state": "Nashville, Tennessee",
@@ -93,7 +93,7 @@
     {
     "id": "10",
     "name": "Threes Brewing ",
-    "brewery_type": "brewpub",
+    "brewery_type": "Brewpub",
     "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
     "address": "333 Douglass Street Brooklyn, New York 11217",
     "city_state": "Brooklyn, New York",
@@ -103,7 +103,7 @@
     {
     "id": "11",
     "name": "Black Abbey Brewery",
-    "brewery_type": "micro",
+    "brewery_type": "Micro",
     "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
     "address": "2952 Sidco Drive Nashville, Tennessee 37204",
     "city_state": "Nashville, Tennessee",
@@ -113,7 +113,7 @@
     {
     "id": "12",
     "name": "Wynkoop",
-    "brewery_type": "brewpub",
+    "brewery_type": "Brewpub",
     "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
     "address": "1634 18th Street Denver, Colorado 80202",
     "city_state": "Denver, Colorado",
@@ -123,7 +123,7 @@
     {
     "id": "13",
     "name": "Greenport Harbor Brewing Co.",
-    "brewery_type": "brewpub",
+    "brewery_type": "Brewpub",
     "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
     "address": "234 Carpenter Street Greenport, New York 11994",
     "city_state": "Greenport, New York",
@@ -133,7 +133,7 @@
     {
     "id": "14",
     "name": "Other Half",
-    "brewery_type": "micro",
+    "brewery_type": "Micro",
     "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
     "address": "195 Centre Stree Brookyln, New York 11231",
     "city_state": "Brooklyn, New York",
@@ -143,7 +143,7 @@
     {
     "id": "15",
     "name": "Blue Moon",
-    "brewery_type": "large",
+    "brewery_type": "Large",
     "type_image": "https://cdn-icons-png.flaticon.com/512/3256/3256216.png",
     "address": "3750 Chestnut Place Denver, Colorado 80216",
     "city_state": "Denver, Colorado",
@@ -153,7 +153,7 @@
     {
     "id": "16",
     "name": "Blue Point Brewing Company",
-    "brewery_type": "brewpub",
+    "brewery_type": "Brewpub",
     "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
     "address": "225 West Main Street Patchogue, New York 11772",
     "city_state": "Patchogue, New York",
@@ -163,7 +163,7 @@
     {
     "id": "17",
     "name": "Live Oak Brewing",
-    "brewery_type": "micro",
+    "brewery_type": "Micro",
     "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
     "address": "1615 Crozier Lane Del Valle, Texas 78617",
     "city_state": "Del Valle, Texas",
@@ -173,7 +173,7 @@
     {
     "id": "18",
     "name": "Stoup Brewing",
-    "brewery_type": "micro",
+    "brewery_type": "Micro",
     "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
     "address": "1108 NW 52nd Street Seattle, Washington 98107",
     "city_state": "Seattle, Washington",
@@ -183,7 +183,7 @@
     {
     "id": "19",
     "name": "Revolution Brewing",
-    "brewery_type": "brewpub",
+    "brewery_type": "Brewpub",
     "type_image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
     "address": "3340 N. Kedzie Ave Chicago, Illinois 60618",
     "city_state": "Chicago, Illinois",
@@ -193,7 +193,7 @@
     {
     "id": "20",
     "name": "Bissell Brothers Brewing",
-    "brewery_type": "micro",
+    "brewery_type": "Micro",
     "type_image": "https://cdn-icons-png.flaticon.com/512/931/931949.png",
     "address": "157 Elm Street Milo, Maine 04463",
     "city_state": "Milo, Maine",
