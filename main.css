@@ -1,5 +1,8 @@
 #everything-div {
-    display: flex
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -17,8 +20,12 @@ body {
     background-position: top, center;
     background-repeat: no-repeat, repeat;
     background-size: auto;
+}
 
-
+#brewery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -31,8 +38,8 @@ body {
     display: flex;
     background: solid;
     background-color: #F5F5DC;
-    margin: 45px;
-    width: 400px;
+    margin: 10px;
+    width: 300px;
     height: 100px;
     border: 10px, solid, #333;
     border-radius: 10px;
@@ -95,6 +102,8 @@ body {
 
 #big-div-info {
     display: flex;
+    
+    align-items: center;
     width: fit-content;
     height: 250px;
     border: 3px solid #333;
